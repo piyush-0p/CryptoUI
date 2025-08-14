@@ -6,13 +6,31 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		18B9D8832E4E13EA0017BB5D /* GeistMono-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 18B9D8822E4E13EA0017BB5D /* GeistMono-Light.otf */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		18B9D86A2E4E0B650017BB5D /* CryptoUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B9D8822E4E13EA0017BB5D /* GeistMono-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GeistMono-Light.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		18B9D8852E4E14160017BB5D /* Exceptions for "CryptoUI" folder in "CryptoUI" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 18B9D8692E4E0B650017BB5D /* CryptoUI */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		18B9D86C2E4E0B650017BB5D /* CryptoUI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				18B9D8852E4E14160017BB5D /* Exceptions for "CryptoUI" folder in "CryptoUI" target */,
+			);
 			path = CryptoUI;
 			sourceTree = "<group>";
 		};
@@ -32,6 +50,7 @@
 		18B9D8612E4E0B650017BB5D = {
 			isa = PBXGroup;
 			children = (
+				18B9D8822E4E13EA0017BB5D /* GeistMono-Light.otf */,
 				18B9D86C2E4E0B650017BB5D /* CryptoUI */,
 				18B9D86B2E4E0B650017BB5D /* Products */,
 			);
@@ -109,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B9D8832E4E13EA0017BB5D /* GeistMono-Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,11 +273,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CryptoUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -284,11 +306,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CryptoUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
