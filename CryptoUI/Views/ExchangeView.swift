@@ -11,7 +11,7 @@ struct ExchangeView: View {
     let transaction = DataProvider.exchangeTrac
     
     var body: some View {
-        NavigationView{
+        NavigationStack{
             ScrollView(showsIndicators: false){
                 ZStack{
                     VStack(spacing: 40){

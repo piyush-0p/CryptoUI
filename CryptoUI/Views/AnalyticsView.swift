@@ -15,7 +15,7 @@ struct AnalyticsView: View {
     let recentCards = DataProvider.recentCards
     
     var body: some View {
-        NavigationView{
+        NavigationStack{
             ZStack{
                 ScrollView(showsIndicators: false){
                     ZStack{
@@ -113,7 +113,7 @@ struct AnalyticsView: View {
 //                }
 //                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)
             }
-            .ignoresSafeArea()
+            .ignoresSafeArea(edges: .top)
             .toolbar{
                 ToolbarItem(placement: .navigationBarLeading){
                     GlassEffectContainer(spacing: 20.0) {

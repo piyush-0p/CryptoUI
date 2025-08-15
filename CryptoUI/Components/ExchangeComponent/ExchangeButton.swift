@@ -9,6 +9,8 @@ import Foundation
 import SwiftUI
 
 struct ExchButtons: View{
+    @State private var goToExchangeDetail = false
+    
     var body: some View{
         HStack(spacing: 20){
             Button(action: {
@@ -22,7 +24,7 @@ struct ExchButtons: View{
             .glassEffect()
             
             Button(action: {
-                
+                goToExchangeDetail = true
             }){
                 Image(systemName: "plus")
                     .font(.system(size: 25, weight: .bold))
@@ -30,6 +32,9 @@ struct ExchButtons: View{
             }
             .frame(width: 60, height: 60)
             .glassEffect()
+            .navigationDestination(isPresented: $goToExchangeDetail) {
+                ExchangeDetailView()
+            }
             
             Button(action: {
                 

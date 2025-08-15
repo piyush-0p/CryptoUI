@@ -25,3 +25,5 @@ struct TransactionCard: Identifiable {
     let coin: String
     let amount: String
 }
+
+

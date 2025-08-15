@@ -24,13 +24,13 @@ struct DataChartView: View {
      var body: some View {
          ZStack{
              VStack(){
-                 LazyVGrid(columns: layout, spacing: 10) {
+                 LazyVGrid(columns: layout, spacing: 5) {
                      ForEach(times, id: \.self) { time in
                          Text(time)
                              .font(.system(size: 17, weight: .medium))
                              .foregroundColor(selectedTime == time ? .white : .white.opacity(0.5))
                              .padding(.vertical, 8)
-                             .padding(.horizontal, 12)
+                             .padding(.horizontal, 5)
                              .background(
                                  RoundedRectangle(cornerRadius: 15)
                                      .fill(selectedTime == time ? Color.white.opacity(0.2) : Color.clear)
