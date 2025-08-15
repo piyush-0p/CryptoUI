@@ -74,7 +74,9 @@ struct AnalyticsView: View {
                                 }
                             }
                             
-                            .padding()
+                            .padding(.leading)
+                            .padding(.top)
+                            .padding(.bottom)
                             
                             VStack(alignment: .leading){
                                 

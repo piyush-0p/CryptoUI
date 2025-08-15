@@ -13,6 +13,7 @@ struct DataProvider{
      static let cards = [
            FinanceCard(imageName: "bitcoin", title: "Bitcoin (BTC)", price: "₹ 75,62,502.14", change: "+3.2%", changeColor: .green),
            FinanceCard(imageName: "ether", title: "Ethereum (ETH)", price: "₹ 2,34,502.50", change: "-1.4%", changeColor: .red),
+           FinanceCard(imageName: "ether", title: "Ethereum (ETH)", price: "₹ 8,34,502.50", change: "+3.4%", changeColor: .green)
        ]
     
      static let recentCards = [

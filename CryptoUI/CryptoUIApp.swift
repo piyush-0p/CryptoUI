@@ -12,6 +12,7 @@ struct CryptoUIApp: App {
     var body: some Scene {
         WindowGroup {
            TabBarView()
+                .preferredColorScheme(.dark)
         }
     }
 }
